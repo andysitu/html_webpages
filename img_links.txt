@@ -1,0 +1,47 @@
+Sofiapro;
+
+Under Size
+<div class="item__img" alt="Round Rugs_09152020" style="background-image: url(&quot;https://images.ctfassets.net/9y4fi2gkk4ov/5XbSnNQk8XRDQa1PriudHN/ce000fc0f69abd0bcb341e7ee0301ab9/Round_09152020.jpg?w=160&amp;fit=scale&amp;fm=png&amp;fl=png8&quot;); background-size: contain; width: 130px;"></div>
+
+<div class="item__img" alt="2.5x10 Runner Rug_09152020" style="background-image: url(&quot;https://images.ctfassets.net/9y4fi2gkk4ov/4FTtgkVzWZdooZIc6CS3R1/80d760e4bb7bf4908195b93c0f74212b/Runner_09152020.jpg?w=160&amp;fit=scale&amp;fm=png&amp;fl=png8&quot;); background-size: contain; width: 130px;"></div>
+
+<div class="item__img" alt="3x5 Rug_09152020" style="background-image: url(&quot;https://images.ctfassets.net/9y4fi2gkk4ov/6muSAA4OeRK8WQmctIzrms/52688a8b7e67ccd02c7a85fac0f8ff30/3x5_09152020.jpg?w=160&amp;fit=scale&amp;fm=png&amp;fl=png8&quot;); background-size: contain; width: 130px;"></div>
+
+<div class="item__img" alt="5x7 Rug_09152020" style="background-image: url(&quot;https://images.ctfassets.net/9y4fi2gkk4ov/73lNDrLP2KCr5nsgUdR6eQ/d5bb4934a848d3b6e950c5d958fce920/5x7_09152020.jpg?w=160&amp;fit=scale&amp;fm=png&amp;fl=png8&quot;); background-size: contain; width: 130px;"></div>
+
+<div class="item__img" alt="6x9 Rug_09152020" style="background-image: url(&quot;https://images.ctfassets.net/9y4fi2gkk4ov/4TPAc3bYTuj0gez78yY7TQ/04c03b1c9a4c6400792a28c781665064/6x9_09152020.jpg?w=160&amp;fit=scale&amp;fm=png&amp;fl=png8&quot;); background-size: contain; width: 130px;"></div>
+
+<div class="item__img" alt="8x10 Rug_09152020" style="background-image: url(&quot;https://images.ctfassets.net/9y4fi2gkk4ov/6FzH8Xk2Z5PW23q3QeskAa/3a0592fef5f6ec7036a965151067dee8/8x10_09152020.jpg?w=160&amp;fit=scale&amp;fm=png&amp;fl=png8&quot;); background-size: contain; width: 130px;"></div>
+
+<div class="item__img" alt="9x12_09152020" style="background-image: url(&quot;https://images.ctfassets.net/9y4fi2gkk4ov/44B0KWGMiOC1NTbmjRLju4/2a1fe38e4cbb00724da4141910001595/9x12_09152020.jpg?w=160&amp;fit=scale&amp;fm=png&amp;fl=png8&quot;); background-size: contain; width: 130px;"><img class="new-nav-badge" src="https://cdn.shopify.com/s/files/1/1033/0751/files/New_Badge_2x_786662ce-33fb-4275-96cf-ae51d3ab0571.jpg?v=1600046305" style="position: relative; left: 130px; width: 43px;"></div>
+
+<img src="https://images.ctfassets.net/9y4fi2gkk4ov/2dHE4jtNG5Y4dmfaIhL1GP/f424d40ffef3b272b7f976612f647cd9/Nav_Dropdown_WhiteThumbnail-363x332.jpg?w=360&amp;h=320&amp;fit=scale&amp;fm=jpg&amp;fl=progressive">
+
+
+
+Colors
+<div class="item__img" alt="Swatch BG" style="background-image: url(&quot;https://images.ctfassets.net/9y4fi2gkk4ov/1olKansQ7emn1UOfusdP5S/1e62601b67c8a77e57bce7e73cb3ee99/Swatch_BG.svg?w=160&amp;fit=scale&amp;fm=png&amp;fl=png8&quot;); background-size: contain; width: 160px;"></div>
+
+<div class="item__img" alt="Black/Noir Swatch" style="background-image: url(&quot;https://images.ctfassets.net/9y4fi2gkk4ov/21i9HtiAPrV2gOcozIbTAJ/3e16d99120d4856ca6549ca7eeb68f5e/Swatch_Black_Noir.svg?w=160&amp;fit=scale&amp;fm=png&amp;fl=png8&quot;); background-size: contain; width: 160px;"></div>
+
+<div class="item__img" alt="Gray/Silver Swatch" style="background-image: url(&quot;https://images.ctfassets.net/9y4fi2gkk4ov/2AA5lhamMlOdd53fno31nz/f46934922b20a08dc7714c7801ac10c6/Swatch_BlaGray.svg?w=160&amp;fit=scale&amp;fm=png&amp;fl=png8&quot;); background-size: contain; width: 160px;"></div>
+
+<div class="item__img" alt="Swatch BrBeige" style="background-image: url(&quot;https://images.ctfassets.net/9y4fi2gkk4ov/1xjSgIQ9X3Z1DOBUnNvn0K/9b0e2fa6580702080ebf6ffbdf66d940/Swatch_BrBeige.svg?w=160&amp;fit=scale&amp;fm=png&amp;fl=png8&quot;); background-size: contain; width: 160px;"></div>
+
+<div class="item__img" alt="Swatch Naturals" style="background-image: url(&quot;https://images.ctfassets.net/9y4fi2gkk4ov/41PJzWHcLi67extwaCXvXD/bc5b4d9c0d3f9ffa5418a88b0ebb8f82/Swatch_Naturals.svg?w=160&amp;fit=scale&amp;fm=png&amp;fl=png8&quot;); background-size: contain; width: 160px;"></div>
+
+<div class="item__img" alt="Swatch Colorful" style="background-image: url(&quot;https://images.ctfassets.net/9y4fi2gkk4ov/1dabV7rBTiQMMu3Cb28NuW/ef20150a7619025acdecb15ab67b3d5b/Swatch_Colorful.svg?w=160&amp;fit=scale&amp;fm=png&amp;fl=png8&quot;); background-size: contain; width: 160px;"></div>
+
+
+Star wars 
+<img class=" ls-is-cached lazyloaded" data-src="https://cdn.shopify.com/s/files/1/1033/0751/files/StarWars_Logo.svg?v=1596559348" src="https://cdn.shopify.com/s/files/1/1033/0751/files/StarWars_Logo.svg?v=1596559348">
+
+Disney
+<img class=" ls-is-cached lazyloaded" data-src="https://cdn.shopify.com/s/files/1/0284/2666/6115/files/DisneyLogo.svg?v=1588117441" src="https://cdn.shopify.com/s/files/1/0284/2666/6115/files/DisneyLogo.svg?v=1588117441">
+
+Cart
+<svg id="cart-svg-logo" width="24px" height="20px" viewBox="0 0 32 28" stroke="black" stroke-width="0.2px"><g><g transform="translate(-9.000000, -24.000000)"><path d="M15.506354,24.25 L16.464,28.25 L41.0450937,28.25 L35.8074944,43.75 L19.888,43.75 L19.8875781,45.25 L32.2138062,45.25 L32.2212097,45.2562757 C33.921275,45.3613773 35.2675781,46.7734657 35.2675781,48.5 C35.2675781,50.2949254 33.8125036,51.75 32.0175781,51.75 C30.2226527,51.75 28.7675781,50.2949254 28.7675781,48.5 C28.7675781,47.8554489 28.9552102,47.2547216 29.2788334,46.7494592 L23.2387447,46.7494592 C23.5623679,47.2547216 23.75,47.8554489 23.75,48.5 C23.75,50.2949254 22.2949254,51.75 20.5,51.75 C18.7050746,51.75 17.25,50.2949254 17.25,48.5 C17.25,47.511147 17.6916273,46.6254415 18.3884081,46.0293575 L18.3875781,42.712 L14.3225781,25.75 L9,25.75 L9,24.25 L15.506354,24.25 Z M20.5,46.75 C19.5335017,46.75 18.75,47.5335017 18.75,48.5 C18.75,49.4664983 19.5335017,50.25 20.5,50.25 C21.4664983,50.25 22.25,49.4664983 22.25,48.5 C22.25,47.5335017 21.4664983,46.75 20.5,46.75 Z M32.0175781,46.75 C31.0510798,46.75 30.2675781,47.5335017 30.2675781,48.5 C30.2675781,49.4664983 31.0510798,50.25 32.0175781,50.25 C32.9840764,50.25 33.7675781,49.4664983 33.7675781,48.5 C33.7675781,47.5335017 32.9840764,46.75 32.0175781,46.75 Z M38.9535781,29.75 L16.824,29.75 L19.819,42.25 L34.7305781,42.25 L38.9535781,29.75 Z" id="Combined-Shape"></path></g></g></svg>
+
+magnifying glass
+<svg width="25px" height="25px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" stroke="#a3a8b3" fill="#a3a8b3" stroke-width="1px" style="overflow: inherit;"><title>icon_Search</title><g id="Mobile-Nav-Designs" fill-rule="evenodd"><g id="Homepage_Mobile_Menu" transform="translate(-384.000000, -98.000000)" fill-rule="nonzero"><g id="icon_Search" transform="translate(384.000000, 98.000000)"><g id="Group"><path d="M7.5,-8.8817842e-16 C3.35786438,-8.8817842e-16 -8.8817842e-16,3.35786438 -8.8817842e-16,7.5 C-8.8817842e-16,11.6421356 3.35786438,15 7.5,15 C11.6421356,15 15,11.6421356 15,7.5 C15,3.35786438 11.6421356,-8.8817842e-16 7.5,-8.8817842e-16 Z M7.5,1.5 C10.8137085,1.5 13.5,4.1862915 13.5,7.5 C13.5,10.8137085 10.8137085,13.5 7.5,13.5 C4.1862915,13.5 1.5,10.8137085 1.5,7.5 C1.5,4.1862915 4.1862915,1.5 7.5,1.5 Z" id="Oval"></path></g><polygon id="Path" points="13.5303301 12.4696699 17.5303301 16.4696699 16.4696699 17.5303301 12.4696699 13.5303301"></polygon></g></g></g></svg>
+
