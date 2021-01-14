@@ -1,3 +1,64 @@
-* {
-    font-family: Sofiapro;
+@font-face {
+    font-family: "sofiapro";
+    src: url("/static/fonts/sofiapro.otf") format("opentype");
+}
+
+div, li, p, span, ul {
+    line-height: 25px;
+}
+
+body {
+    font-family: "Sofia Pro", sans-serif;
+}
+
+#navs-container {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 20px;
+    background-color: #212529;
+}
+
+#promo-nav-container {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 42px;
+    padding: 0 12px;
+    transition: margin .3s linear;
+    position: relative
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+    text-decoration-color: #d9a600;
+}
+
+#promo-nav-container a:hover {
+    text-decoration-color: #fff
+}
+
+.referer-div {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    text-align: right;
+    margin-right: 33px;
+    padding-bottom: 4px
+}
+
+@media only screen and (max-width: 780px) {
+    #navs-container {
+        font-size: 16px;
+    }
+
+    .hide-small {
+        display: none;
+    }
 }
