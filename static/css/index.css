@@ -3,15 +3,18 @@
     src: url("/static/fonts/sofiapro.otf") format("opentype");
 }
 
-div, li, p, span, ul {
-    line-height: 25px;
-}
-
 body {
     font-family: "Sofia Pro", sans-serif;
 }
 
 #navs-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#promo-nav-container {
     position:fixed;
     top: 0;
     left: 0;
@@ -31,8 +34,40 @@ body {
     position: relative
 }
 
+#navigation-wrapper {
+    padding: 0 12px;
+    box-shadow: 0 1px 2px 0 rgba(227, 233, 246, .75);
+}
+
+#logo-container, #nav-links-container {
+    display: inline;
+}
+
+#navigation-container {
+    height: 60px;
+    padding: 0 20px 0 30px;
+}
+
+.nav-ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    color: #2f333d;
+}
+
+li.nav-items {
+    display: inline
+}
+
 a {
     color: inherit;
+}
+
+#ruggable_logo {
+    width: auto;
+    margin: auto 0;
+    max-width: 230px;
 }
 
 a:hover {
@@ -53,12 +88,28 @@ a:hover {
     padding-bottom: 4px
 }
 
+.show-mobile {
+    display: none;
+}
+
 @media only screen and (max-width: 780px) {
     #navs-container {
         font-size: 16px;
     }
 
-    .hide-small {
+    .hide-mobile {
         display: none;
+    }
+
+    .show-mobile {
+        display: block;
+    }
+
+    #navigation-container {
+        padding: 0;
+        height: 70px;
+    }
+    #navigation-wrapper {
+        padding: 0;
     }
 }
