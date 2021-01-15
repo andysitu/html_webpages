@@ -8,6 +8,7 @@ body {
 }
 
 #navs-container {
+    z-index: 100;
     position: fixed;
     top: 0;
     left: 0;
@@ -15,15 +16,11 @@ body {
 }
 
 #promo-nav-container {
-    position:fixed;
     top: 0;
     left: 0;
     width: 100%;
     font-size: 20px;
     background-color: #212529;
-}
-
-#promo-nav-container {
     color: #fff;
     display: flex;
     justify-content: center;
@@ -31,37 +28,79 @@ body {
     height: 42px;
     padding: 0 12px;
     transition: margin .3s linear;
-    position: relative
+    position: relative;
 }
 
 #navigation-wrapper {
+    background: #fff;
     padding: 0 12px;
     box-shadow: 0 1px 2px 0 rgba(227, 233, 246, .75);
 }
 
-#logo-container, #nav-links-container {
-    display: inline;
+#logo-container {
+    flex: 1;
+}
+#search-container {
+    flex: 1;
+    text-align: right;
 }
 
 #navigation-container {
+    font-size: 20px;
     height: 60px;
     padding: 0 20px 0 30px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+#nav-links-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-items {
+    height: 100%;
+    align-items: center;
+    display: flex;
+    padding: 0 2rem;
+}
+
+.nav-items:hover {
+    border-bottom: 2px solid #d9a600;
+    
 }
 
 .nav-ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
     list-style: none;
     margin: 0;
     padding: 0;
-    display: inline;
+    /* display: inline; */
     color: #2f333d;
 }
 
-li.nav-items {
-    display: inline
+.nav-ul a {
+    text-decoration: none;
 }
 
 a {
     color: inherit;
+}
+
+#puppy-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    padding-top: 102px;
+    background-position: top 102px center;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn.shopify.com/s/files/1/0284/2666/6115/files/DogLovers_Hero_Desktop_0120.jpg?v=1579042346);
+    background-size: auto;
 }
 
 #ruggable_logo {
@@ -111,5 +150,9 @@ a:hover {
     }
     #navigation-wrapper {
         padding: 0;
+    }
+
+    #puppy-header {
+        padding-top: 112px;
     }
 }
