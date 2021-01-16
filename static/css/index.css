@@ -3,6 +3,10 @@
     src: url("/static/fonts/sofiapro.otf") format("opentype");
 }
 
+#content-container {
+    max-width: 1600px;
+}
+
 body {
     font-family: "Sofia Pro", sans-serif;
 }
@@ -32,32 +36,49 @@ body {
 }
 
 #navigation-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: #fff;
     padding: 0 12px;
     box-shadow: 0 1px 2px 0 rgba(227, 233, 246, .75);
 }
 
-#logo-container {
-    flex: 1;
-}
-#search-container {
-    flex: 1;
-    text-align: right;
-}
-
 #navigation-container {
+    width: 1600px;
     font-size: 20px;
     height: 60px;
     padding: 0 20px 0 30px;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
 }
 
+#logo-container {
+    /* flex: 1; */
+}
 #nav-links-container {
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    /* align-items: center; */ */
     height: 100%;
+}
+#search-container {
+    /* flex: 1; */
+    text-align: right;
+}
+
+.rug-button {
+    background-color: #ffce29;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 0 50px 3px;
+    border: 0 transparent;
+    min-height: 57px;
+    min-width: 150px;
+}
+
+#header-btn-container {
+    padding-top: 20px;
 }
 
 .nav-items {
@@ -91,11 +112,46 @@ a {
     color: inherit;
 }
 
-#puppy-header {
+#puppy-header-text {
+    color: #fff;
+    max-width: 800px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 75px;
+}
+h2 {
+    font-size: 40px;
+}
+
+#works-container {
+    padding-top: 30px;
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: center;
+}
+
+#how-rugs-work-container {
+    padding: 30px;
+    flex: 1 1;
+    font-size: 18px;
+}
+#rugs-work-img-container {
+    padding: 0 30px;
+    flex: 1 1;
+}
+
+#rugs-work-img-container img {
+    width: 100%;
+}
+
+#puppy-header {    
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: 600px;
+    height: 702px;
     padding-top: 102px;
     background-position: top 102px center;
     background-repeat: no-repeat;
@@ -127,6 +183,19 @@ a:hover {
     padding-bottom: 4px
 }
 
+#dog-approved-container {
+    text-align: center;
+    padding: 80px;
+}
+
+#dog-approved-container h2 {
+    margin-bottom: 80px;
+}
+
+.dg-icon-wrapper img {
+    height: 80px;
+}
+
 .show-mobile {
     display: none;
 }
@@ -152,7 +221,36 @@ a:hover {
         padding: 0;
     }
 
+    #puppy-header-text {
+        max-width: 380px;;
+    }
+    h1 {
+        font-size: 55px;
+    }
+
     #puppy-header {
         padding-top: 112px;
+    }
+
+    #works-container {
+        flex-direction: column;
+    }
+
+    #rugs-work-img-container {
+        padding: 0;
+    }
+
+    #dog-approved-container {
+        padding: 80px 0;
+    }
+
+    .dg-icon-wrapper img {
+        height: 54px;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    #works-container {
+        align-items: start;
     }
 }
