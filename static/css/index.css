@@ -89,7 +89,7 @@ body {
 }
 
 .nav-items:hover {
-    border-bottom: 2px solid #d9a600;
+    box-shadow: inset 0 -6px 0 #d9a600;
     
 }
 
@@ -124,6 +124,9 @@ h1 {
 h2 {
     font-size: 40px;
 }
+img {
+    width: 100%
+}
 
 #works-container {
     padding-top: 30px;
@@ -140,10 +143,6 @@ h2 {
 #rugs-work-img-container {
     padding: 0 30px;
     flex: 1 1;
-}
-
-#rugs-work-img-container img {
-    width: 100%;
 }
 
 #puppy-header {    
@@ -188,16 +187,208 @@ a:hover {
     padding: 80px;
 }
 
+#dog-approved-info-container {
+    text-align: center;
+    display: flex;
+    /* flex: 1 1 1; */
+}
+
+.dog-info-wrapper {
+    flex-basis: 100%;
+    padding: 0 15px;
+    margin-bottom: 50px;
+}
+
 #dog-approved-container h2 {
     margin-bottom: 80px;
+}
+
+.dg-icon-wrapper {
+    margin-bottom: 30px
 }
 
 .dg-icon-wrapper img {
     height: 80px;
 }
 
+#cleanup-container {
+    background-color: #f5f6fa;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+#cleanup-container h2{
+    padding-top: 60px;
+    margin-bottom: 50px;
+}
+
 .show-mobile {
     display: none;
+}
+
+.items-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+video {
+    width: 100%;
+}
+
+.item-text-wrapper {
+    padding-top: 15px
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.clean-item-wrapper {
+    max-width: 31%;
+    /* display: flex; */
+    flex-basis: 100%;
+    background-color: #fff;
+    padding: 15px 15px 0 15px;
+}
+
+.items-h4-wrapper {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-right: 10px
+}
+
+.item-content-wrapper {
+    text-align: left;
+    margin-left: 55px;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.items-h4-wrapper h4 {
+    /* display: flex; */
+    text-align: center;
+    /* align-items: center; */
+    border-radius: 45px;
+    background-color: #e3e9f6;
+    height: 45px;
+    width: 45px;
+    font-size: 30px
+}
+
+h5 {
+    font-size: 30px
+}
+
+#cleanup-button-div {
+    margin-top: 40px;
+}
+
+#pup-approved-container {
+    text-align: center!important;
+}
+
+#pup-approved-container > h2 {
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+#pup-approved-p {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.rug-container > img {
+    width:100%;
+    margin-bottom: 15px;
+}
+
+.rug-container p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#rug-btn-container {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+#pros-info-container {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.pros-item-wrapper {
+    padding: 15px;
+    text-align: center;
+}
+
+.pros-item-wrapper img:hover {
+    opacity: 0.5;
+}
+
+.pros-item-wrapper p {
+    max-width: 460px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+
+.pros-item-wrapper h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pros-item-wrapper a.cancel-underline:hover{
+    text-decoration: none;
+}
+
+.pros-item-wrapper span{
+    font-size: 20px;
+}
+
+.pros-text-wrapper {
+    border: 1px solid #d7d7d7;
+    min-height: 240px;
+}
+
+a.underline-a:hover {
+    text-decoration: underline;
+    text-decoration-color: #d9a600;
+}
+
+a.underline-a {
+    text-decoration: underline;
+    text-decoration-color: inherit;
+}
+
+#real-life-container {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#real-life-container p {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+footer {
+    background: #212634;
+    color: #fff;
+    padding: 80px;
+}
+
+#footer-container {
+    font-size: 14px;
+    max-width: 1140px;
+}
+
+.footer-list-title {
+    color: #ffe48c;
+    letter-spacing: .1rem;
 }
 
 @media only screen and (max-width: 780px) {
@@ -246,6 +437,26 @@ a:hover {
 
     .dg-icon-wrapper img {
         height: 54px;
+    }
+    
+    #dog-approved-info-container {
+        flex-direction: column;
+    }
+
+    .items-wrapper {
+        flex-direction: column;
+    }
+
+    .clean-item-wrapper {
+        max-width: 100%;
+    }
+
+    #pup-approved-p {
+        width: 90%;
+    }
+
+    .pros-text-wrapper {
+        min-height: 0;
     }
 }
 
