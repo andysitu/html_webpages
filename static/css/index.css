@@ -54,17 +54,23 @@ body {
     align-items: center;
 }
 
-#logo-container {
-    /* flex: 1; */
+#nav-search-input-group {
+    min-width: 260;
 }
 #nav-links-container {
-    /* display: flex;
-    /* align-items: center; */ */
     height: 100%;
 }
 #search-container {
-    /* flex: 1; */
     text-align: right;
+}
+#shopping-cart-container {
+    cursor: pointer;
+    margin-left: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    min-width: 38px;
+    min-height: 38px;
 }
 
 .rug-button {
@@ -85,7 +91,7 @@ body {
     height: 100%;
     align-items: center;
     display: flex;
-    padding: 0 2rem;
+    padding: 0 1.2rem;
 }
 
 .nav-items:hover {
@@ -150,11 +156,11 @@ img {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 702px;
-    padding-top: 102px;
+    height: 600px;
+    margin-top: 102px;
     background-position: top 102px center;
     background-repeat: no-repeat;
-    background-image: url(https://cdn.shopify.com/s/files/1/0284/2666/6115/files/DogLovers_Hero_Desktop_0120.jpg?v=1579042346);
+    background: url("../imgs/puppy-background.webp");
     background-size: auto;
 }
 
@@ -384,11 +390,97 @@ footer {
 #footer-container {
     font-size: 14px;
     max-width: 1140px;
+    margin: auto;
+    padding: auto;
 }
 
 .footer-list-title {
     color: #ffe48c;
     letter-spacing: .1rem;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.footer-links a {
+    padding: 5px 0;
+}
+
+.footer-links a:hover {
+    text-decoration: none;
+    box-shadow: inset 0 -1px 0 #d9a600;
+}
+
+.currency-btn {
+    background-color: #e3e9f6;
+    color: #a3a8b3;
+}
+
+.currency-btn.active {
+    background-color: #fff;
+    color: #000;
+}
+
+#email-footer-container {
+    display: flex;
+    font-size: 14px;
+    margin-bottom: 50px
+}
+
+#footer-email-input {
+    color: #b4bbc3;
+    background-color: #4b5d6e;
+    padding: 4px 1px 1px 20px;
+}
+
+#footer-email-submit {
+    color: #363a46;
+    background-color: #8eacc8;
+    padding: 5px;
+    border: none;
+}
+
+#footer-email-submit:hover {
+    color: #363a46;
+    background-color: #bfe0ff;
+}
+
+#social-icons-container {
+    display: flex;
+}
+
+.social-icon {
+    padding-left: 10px;
+}
+
+.social-icon-link{
+    display: block;
+    width: 35px;
+    height: 35px;
+}
+
+#facebook-link {
+    background: url("../imgs/fb.svg") center center;
+    background-repeat: no-repeat;
+}
+
+#instagram-link {
+    background: url("../imgs/instagram.svg") center center;
+    background-repeat: no-repeat;
+}
+
+#pininterest-link {
+    background: url("../imgs/pininterest.svg") center center;
+    background-repeat: no-repeat;
+}
+
+#youtube-link {
+    background: url("../imgs/youtube.svg") center center;
+    background-repeat: no-repeat;
 }
 
 @media only screen and (max-width: 780px) {
@@ -457,6 +549,22 @@ footer {
 
     .pros-text-wrapper {
         min-height: 0;
+    }
+
+    footer {
+        padding: 30px;
+    }
+
+    .footer-list-title {
+        padding-top: 10px
+    }
+
+    .footer-links {
+        column-count: 2;
+    }
+
+    .footer-links li {
+        padding-bottom: 10px;
     }
 }
 
