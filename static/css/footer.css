@@ -81,21 +81,21 @@ footer {
 }
 
 #facebook-link {
-    background: url("../imgs/fb.svg") center center;
+    background: url("../imgs/social_icons/fb.svg") center center;
     background-repeat: no-repeat;
 }
 
 #instagram-link {
-    background: url("../imgs/instagram.svg") center center;
+    background: url("../imgs/social_icons/instagram.svg") center center;
     background-repeat: no-repeat;
 }
 
 #pininterest-link {
-    background: url("../imgs/pininterest.svg") center center;
+    background: url("../imgs/social_icons/pininterest.svg") center center;
     background-repeat: no-repeat;
 }
 
 #youtube-link {
-    background: url("../imgs/youtube.svg") center center;
+    background: url("../imgs/social_icons/youtube.svg") center center;
     background-repeat: no-repeat;
 }
