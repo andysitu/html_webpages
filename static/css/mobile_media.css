@@ -1,0 +1,132 @@
+@media only screen and (max-width: 780px) {
+    #navs-container {
+        font-size: 16px;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+
+    .show-mobile {
+        display: block;
+    }
+
+    #navigation-container {
+        padding: 0;
+        height: 70px;
+    }
+    #navigation-wrapper {
+        padding: 0;
+    }
+
+    #puppy-header-text {
+        max-width: 380px;;
+    }
+    h1 {
+        font-size: 55px;
+    }
+
+    #puppy-header {
+        padding-top: 112px;
+    }
+
+    #works-container {
+        flex-direction: column;
+    }
+
+    #rugs-work-img-container {
+        padding: 0;
+    }
+
+    #dog-approved-container {
+        padding: 80px 0;
+    }
+
+    .dg-icon-wrapper img {
+        height: 54px;
+    }
+    
+    #dog-approved-info-container {
+        flex-direction: column;
+    }
+
+    .items-wrapper {
+        flex-direction: column;
+    }
+
+    .clean-item-wrapper {
+        max-width: 100%;
+    }
+
+    #pup-approved-p {
+        width: 90%;
+    }
+
+    .pros-text-wrapper {
+        min-height: 0;
+    }
+
+    footer {
+        padding: 30px;
+    }
+
+    .footer-list-title {
+        padding-top: 10px
+    }
+
+    .footer-links {
+        column-count: 2;
+    }
+
+    .footer-links li {
+        padding-bottom: 10px;
+    }
+
+    #search-toggler {
+        display: flex;
+    }
+    
+
+    #ruggable_logo {
+        width: 160px;
+    }
+
+    #searchbar-container.reveal {
+        display: flex;
+    }
+    #searchbar-container {
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0;
+        left: 0;
+        background: rgb(227, 233, 246);
+        height: 70px;
+        padding: 15px;
+        justify-content: center;
+        align-items: center;
+        display: none;
+    }
+    #search-bar-ctn > input{
+        height: 100%;
+    }
+    #search-bar-ctn {
+        height: 40px;
+        width: 90%;
+    }
+    #search-bar-btn-ctn {
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 1140px) {
+    #nav-links-container {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    #works-container {
+        align-items: start;
+    }
+}

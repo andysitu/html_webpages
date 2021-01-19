@@ -1,0 +1,101 @@
+footer {
+    background: #212634;
+    color: #fff;
+    padding: 80px;
+}
+
+#footer-container {
+    font-size: 14px;
+    max-width: 1140px;
+    margin: auto;
+    padding: auto;
+}
+
+.footer-list-title {
+    color: #ffe48c;
+    letter-spacing: .1rem;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.footer-links a {
+    padding: 5px 0;
+}
+
+.footer-links a:hover {
+    text-decoration: none;
+    box-shadow: inset 0 -1px 0 #d9a600;
+}
+
+.currency-btn {
+    background-color: #e3e9f6;
+    color: #a3a8b3;
+}
+
+.currency-btn.active {
+    background-color: #fff;
+    color: #000;
+}
+
+#email-footer-container {
+    display: flex;
+    font-size: 14px;
+    margin-bottom: 50px
+}
+
+#footer-email-input {
+    color: #b4bbc3;
+    background-color: #4b5d6e;
+    padding: 4px 1px 1px 20px;
+}
+
+#footer-email-submit {
+    color: #363a46;
+    background-color: #8eacc8;
+    padding: 5px;
+    border: none;
+}
+
+#footer-email-submit:hover {
+    color: #363a46;
+    background-color: #bfe0ff;
+}
+
+#social-icons-container {
+    display: flex;
+}
+
+.social-icon {
+    padding-left: 10px;
+}
+
+.social-icon-link{
+    display: block;
+    width: 35px;
+    height: 35px;
+}
+
+#facebook-link {
+    background: url("../imgs/fb.svg") center center;
+    background-repeat: no-repeat;
+}
+
+#instagram-link {
+    background: url("../imgs/instagram.svg") center center;
+    background-repeat: no-repeat;
+}
+
+#pininterest-link {
+    background: url("../imgs/pininterest.svg") center center;
+    background-repeat: no-repeat;
+}
+
+#youtube-link {
+    background: url("../imgs/youtube.svg") center center;
+    background-repeat: no-repeat;
+}
