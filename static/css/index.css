@@ -6,6 +6,7 @@
 #content-container {
     padding: 0;
     max-width: 1600px;
+    margin: auto;
 }
 
 body {
@@ -56,6 +57,21 @@ body {
     align-items: center;
 }
 
+#hamburger-menu-btn {
+    border: none;
+    background-color: white;
+    margin-left: 15px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+#logo-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
 #nav-search-input-group > input {
     font-size: 14px;
     min-height: 38px;
@@ -63,6 +79,9 @@ body {
 }
 #nav-links-container {
     height: 100%;
+}
+#search-btn {
+    border: none;
 }
 #search-container {
     text-align: right;
@@ -262,7 +281,7 @@ h2 {
     font-size: 40px;
 }
 img {
-    max-width: 100%;
+    width: 100%;
 }
 
 #works-container {
@@ -282,6 +301,7 @@ img {
     flex: 1 1;
 }
 
+
 #puppy-header {    
     display: flex;
     justify-content: center;
@@ -289,9 +309,8 @@ img {
     align-items: center;
     height: 600px;
     margin-top: 102px;
-    background-position: top 102px center;
-    background-repeat: no-repeat;
-    background: url("../imgs/puppy-background.webp");
+    background-position: top 102px;
+    background: url("../imgs/puppy-background.webp") no-repeat center;
     background-size: auto;
 }
 
@@ -437,6 +456,11 @@ h5 {
     margin-bottom: 50px;
 }
 
+.rugs-wrapper {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 .rug-container > img {
     width:100%;
     margin-bottom: 15px;
@@ -453,8 +477,13 @@ h5 {
 }
 
 #pros-info-container {
-    text-align: center;
+    text-align: center!important;
     margin-bottom: 80px;
+}
+
+#pros-items-container {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .pros-item-wrapper {
@@ -612,7 +641,6 @@ footer {
     background: url("../imgs/youtube.svg") center center;
     background-repeat: no-repeat;
 }
-
 @media only screen and (max-width: 780px) {
     #navs-container {
         font-size: 16px;
@@ -695,6 +723,20 @@ footer {
 
     .footer-links li {
         padding-bottom: 10px;
+    }
+
+    #search-bar-ctn {
+        display: none;
+    }
+
+    #ruggable_logo {
+        width: 160px;
+    }
+}
+
+@media only screen and (max-width: 1140px) {
+    #nav-links-container {
+        display: none;
     }
 }
 
