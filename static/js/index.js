@@ -1,3 +1,4 @@
+// Object that handles viewing shopcart that pops on right side
 var shopcart_obj = {
   show() {
     var overall_ctn = document.getElementById("cart-overall-container"),
@@ -25,6 +26,16 @@ var shopcart_obj = {
     });
   }
 }
+// Search navbar for mobile viewing
+var search_obj = {
+  load_handler() {
+    var btn = document.getElementById("search-toggler");
+    btn.addEventListener("click", function(e) {
+      e.preventDefault();
+      document.getElementById("searchbar-container").classList.toggle("reveal");
+    });
+  },
+}
 
 window.onload = function() {
   document.addEventListener('scroll', function(e) {
@@ -36,15 +47,7 @@ window.onload = function() {
   });
 
   shopcart_obj.load_handler();
+  search_obj.load_handler();
 
   var docWidth = document.documentElement.offsetWidth;
-
-[].forEach.call(
-  document.querySelectorAll('*'),
-  function(el) {
-    if (el.offsetWidth > docWidth) {
-      console.log(el);
-    }
-  }
-);
 };
