@@ -19,6 +19,17 @@
     opacity: 0.75;
 }
 
-a, a:visited, a:link {
+a, a:visited, a:link, a:hover {
+    color: black;
     text-decoration: none;
+}
+
+/* .link-description {
+    display: none;
+} */
+
+.link-description {
+    font-size: 18px;
+    color: gray;
+    display: inline;
 }
