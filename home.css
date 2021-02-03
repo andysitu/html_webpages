@@ -19,6 +19,6 @@
     opacity: 0.75;
 }
 
-a {
+a, a:visited, a:link {
     text-decoration: none;
 }
