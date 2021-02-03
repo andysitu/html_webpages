@@ -80,11 +80,11 @@ body {
     opacity: 0;
     transition: opacity 0.5s ease-out;
 }
-#materials-container > div {
+#content3-container > div {
     display: none;
 }
 
-#materials-container.active-container > div {
+#content3-container.active-container > div {
     display: flex;
     justify-content: center;
 }
@@ -95,10 +95,10 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
-    #fit-nav-button {
+    #content1-nav-button {
         border-bottom: none;
     }
-    #care-nav-button {
+    #content2-nav-button {
         border-bottom: none;
     }
 
@@ -154,7 +154,7 @@ body {
         padding-right: 20px;
     }
 
-    #materials-container > #ingredients-content {
+    #content3-container > #ingredients-content {
         justify-content: space-around;
     }
 

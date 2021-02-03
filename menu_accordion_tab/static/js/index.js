@@ -51,12 +51,12 @@
   // Moves children from mobile to desktop container or vice versa
   function change_screen_size() {
     const width = window.innerWidth;
-    var fit_mobile = document.getElementById("fit-guide-mobile-container"),
+    var fit_mobile = document.getElementById("content1-mobile-container"),
         care_mobile = document.getElementById("care-mobile-container"),
         materials_mobile = document.getElementById("materials-mobile-container"),
-        fit_desktop = document.getElementById("fit-guide-desktop-container"),
-        care_desktop = document.getElementById("care-desktop-container"),
-        materials_desktop = document.getElementById("materials-desktop-container");
+        fit_desktop = document.getElementById("content1-desktop-container"),
+        care_desktop = document.getElementById("content2-desktop-container"),
+        materials_desktop = document.getElementById("content3-desktop-container");
     console.log(fit_desktop, fit_desktop.hasChildNodes(), fit_desktop.firstChild);
     if (width > 767) {
       desktopStatus = true;
