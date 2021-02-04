@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+}
+
+button {
+    font-size: 20px;
+    background-color: lightgray;
+    border: 1px solid gray;
+    padding: 10px;
+    color: gray;
+    border-radius: 4px;
+}
+
+#nav-menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    font-size: 30px;
+}
+
+#content-container {
+    display: flex;
+    justify-content: center;
+    font-family: 'Merriweather', serif;
+}
+.menu {
+    margin: 50px;
+    width: 1400px;
+    overflow: auto;
+}
+
+.menu-header {
+    font-size: 30px;
+    height: 50px;
+}
+
+.menu-subheader {
+    height: 40px;
+    font-size: 20px;
+}
+
+.menu-header, .menu-subheader {
+    cursor: pointer;
+}
+
+.menu-subheader-container {
+    display: none;
+}
+
+.menu-header.active + .menu-subheader-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.menu-link.active {
+    background-color: black;
+    color: white;
+}
+
+.menu-link.active:hover {
+    background-color: black;
+    color: white;
+}
+
+.menu-link:after {
+    content: "+";
+    float: right;
+}
+.menu-link.active:after {
+    content: "-";
+}
+
+.menu-header:hover, .menu-subheader:hover {
+    background-color: lightgray;
+    outline: 1px solid gray;
+}
